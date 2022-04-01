@@ -1,0 +1,32 @@
+:root {
+  --main-color: #757575;
+  --second-color: #212121;
+  --third-color: #2196f3;
+  --filter-color: #f5f4fa;
+}
+
+body {
+  font-family: Roboto;
+  color: var(--main-color);
+}
+
+/* Логотип */
+.logo-web {
+  color: var(--third-color);
+}
+
+.logo-header {
+  color: #212121;
+}
+
+.logo-footer {
+  color: #ffffff;
+}
+
+.nav {
+  color: var(--second-color);
+}
+
+.contacts {
+  color: var(--main-color);
+}
