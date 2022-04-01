@@ -3,6 +3,7 @@
   --second-color: #212121;
   --third-color: #2196f3;
   --filter-color: #f5f4fa;
+  --btn: cursor;
 }
 
 body {
@@ -23,10 +24,88 @@ body {
   color: #ffffff;
 }
 
-.nav {
+.nav .link {
   color: var(--second-color);
 }
 
-.contacts {
+.contacts .link {
+  color: inherit;
+}
+
+.main-text {
+  color: #ffffff;
+}
+
+/* Кнопка на главной странице */
+.main-text > button[type='button'] {
+  color: #ffffff;
+  background-color: var(--third-color);
+}
+
+.subtitle {
+  color: var(--second-color);
+}
+
+.item h3 {
+  color: var(--second-color);
+}
+
+.footer-address .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address a {
+  color: #ffffff;
+}
+
+/* Кнопки в портфолио */
+.buttons .btn {
+  color: var(--second-color);
+}
+
+.portfolio h2 {
+  color: var(--second-color);
+}
+
+.portfolio p {
   color: var(--main-color);
+}
+
+.nav .link:hover,
+.nav .link:focus {
+  color: var(--third-color);
+}
+
+.contacts .link:hover {
+  color: var(--third-color);
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.address a:hover,
+.address a:focus {
+  color: var(--third-color);
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--third-color);
+}
+
+.footer-address .link:hover,
+.footer-address .link:focus {
+  color: var(--third-color);
+}
+
+.btn:hover,
+.btn:focus {
+  color: #ffffff;
+  background-color: var(--third-color);
+}
+
+.portfolio p:hover,
+.portfolio p:focus {
+  color: var(--third-color);
 }
